@@ -34,4 +34,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Ignore artifacts:
+build
+coverage
+
+# Todo list
 todos.md
