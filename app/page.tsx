@@ -1,9 +1,15 @@
-const HomePage = () => {
+import Footer from "@/components/Footer/Footer";
+import Intro from "@/components/Intro/Intro";
+import Title from "@/components/Title/Title";
+
+const Page = () => {
   return (
-    <div>
-      <h1>Landing Page Example</h1>
-    </div>
+    <main>
+      <Title />
+      <Intro />
+      <Footer />
+    </main>
   );
 };
 
-export default HomePage;
+export default Page;
